@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use DmitryIvanov\DarkSkyApi\DarkSkyApi;
 
 
-$apiService = new DarkSkyApi('apiKeyGoesHere'); 
+$apiService = new DarkSkyApi('0665145667ce6a234287f1399a71e627'); 
 
 echo "Current Conditions at the Natcher Conference Center: <br/>";
 $forecast = ($apiService)
