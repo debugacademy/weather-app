@@ -1,7 +1,7 @@
 <?php
 namespace DebugAcademy\DarkSkyApp;
 
-interface WeatherStation {
+interface WeatherStationInterface {
     public function getTemperature();
     public function getConditions();
     public function getWindSpeed();

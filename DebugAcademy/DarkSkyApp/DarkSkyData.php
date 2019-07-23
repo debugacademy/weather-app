@@ -1,11 +1,11 @@
 <?php 
 namespace DebugAcademy\DarkSkyApp;
 
-require_once('WeatherStation.php');
+require_once('WeatherStationInterface.php');
 
 use DmitryIvanov\DarkSkyApi\DarkSkyApi;
 
-class DarkSkyData implements WeatherStation {
+class DarkSkyData implements WeatherStationInterface {
 
     // private $temperature;
     // private $conditions;
